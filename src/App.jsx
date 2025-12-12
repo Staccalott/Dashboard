@@ -4,6 +4,7 @@ import Hero from "./Paths/Hero"
 import Feature from "./Paths/Feature"
 import Courses from "./Paths/Courses"
 import Pricing from "./Paths/Pricing"
+import Contact from "./Paths/contact"
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path='/feature' element={<Feature />}></Route>
             <Route path='/courses' element={<Courses/>}></Route>
             <Route path='/pricing' element={<Pricing/>}></Route>
+            <Route path='/contact' element={<Contact/>}></Route>
         </Routes> 
       </BrowserRouter>
     </>

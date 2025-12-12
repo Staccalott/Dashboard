@@ -25,7 +25,7 @@ const Navbar = () => {
               <Link className='nav-link text-white'  href='#'>About</Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link text-white'  href='#'>Contact Us</Link>
+              <Link className='nav-link text-white'  to={'/contact'}>Contact Us</Link>
             </li>
             <li className='nav-item ben'>
               <Link className='nav-link  rounded-3 text-white white'  href='#'>Get Started</Link>

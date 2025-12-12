@@ -60,7 +60,7 @@ const Feature = () => {
         </div>
       </section>
       <section className='size mt-5'>
-        <div className='text-center rounded-4 mb-5 py-5 mx-auto' style={{background:"#060C19", maxWidth:"1150px"}}>
+        <div className='text-center rounded-5 n n n n  mb-5 py-5 mx-auto' style={{background:"#060C19", maxWidth:"1150px"}}>
           <h1 className='bear fs-2'>Start Learning Today</h1>
           <p>Join thousands of learners upgrading their skills on E-Learn.</p>
           <button className='rounded-3 py-3 fs-5 mt-3 px-4' style={{background:"linear-gradient(to right, #1798F8, #05CEFF)"}}>Get Started</button>

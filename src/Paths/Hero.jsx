@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from "react";
 
 
 
-const Hero = () => {
+const Hero = () => {    
     const [open, setOpen] = useState(false);
     const contentRef = useRef(null);
     const [contentHeight, setContentHeight] = useState(0);
@@ -20,6 +20,9 @@ const Hero = () => {
   return (
     <section>
         <section className='d-flex align-items-center'>
+           <section>
+                
+           </section>
         <section  className='text-white border border-0 rounded-4 ps-5 pt-5 pb-5'>
             <div>
                 <h1>Learn the skills employers actually want - at your pace.</h1>

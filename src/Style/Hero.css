@@ -85,7 +85,7 @@
 .height{
     line-height: 0.2;
 }
-.name{
+.name{  
     color: #5674B3;
 }
 .bulb{
@@ -110,10 +110,10 @@
     font-size: normal;
 }
 .four{
-    padding:"20px 40px,";
+    padding:20px 40px;
     background-color:"#051B48"; 
-    font-size:"14px"; 
-    margin-left:"250px"
+    font-size:14px; 
+    margin-left:250px
 }
 .panda{
     background-color: #051B48;
@@ -123,4 +123,8 @@
     font-family: "poppins", sans-serif;
     font-size: normal;
     font-weight: 400;
+}
+
+@media (max-width: 1000px){
+
 }
