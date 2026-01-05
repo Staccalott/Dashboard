@@ -15,3 +15,9 @@
     font-size: 20px;
     color: white;
 }
+.pink:hover {
+    text-decoration: 2px underline #5674B3 !important;
+}
+.pump:fucos{
+    background-color:#060C19 ;
+}

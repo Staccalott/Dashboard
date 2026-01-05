@@ -18,7 +18,7 @@ const Contact = () => {
                             </div>
                             <form action="">
                                 <div>
-                                    <label htmlFor="Full Name" className='done'>Ful Name</label>
+                                    <label htmlFor="Full Name" className='done'>Full Name</label>
                                     <br />
                                     <input  className='rounded-3 mb-3 ps-3' type="Name" name='Full Name' id='Full Name' placeholder='Full Name' style={{width:"370px", background:"#060C19", height:"40px"}}/>
                                 </div>
