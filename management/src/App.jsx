@@ -18,7 +18,7 @@ import Login from "./Paths/Login";
 import Order from "./Paths/Order";
 import CourseDetail from "./Paths/CourseDetail";
 import About from "./Paths/About";
-import StudentDashboard from "./Paths/StudentDashboard";
+import StudentDashboard from "./student/StudentDashboard";
 
 const AppContent = () => {
   const location = useLocation();

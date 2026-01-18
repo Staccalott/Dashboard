@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import courseData from './Data'; // Import course data
+import courseData from '../Paths/Data'; // Import course data
 
 // --- Inline Icons ---
 const HomeIcon = () => (
