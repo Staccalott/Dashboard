@@ -41,7 +41,7 @@ class CourseCreate(CourseBase):
 class Course(CourseBase):
     id: int
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class EnrollmentBase(BaseModel):
     progress: int
@@ -52,7 +52,7 @@ class Enrollment(EnrollmentBase):
     course: Course
     last_lesson: Optional[str]
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class DashboardData(BaseModel):
     total_hours: int

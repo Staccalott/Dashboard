@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import date, timedelta
+from pydantic import BaseModel
 import models, schemas, auth
 from database import get_db
 from sqlalchemy import func
@@ -62,7 +63,7 @@ def get_dashboard_data(current_user: models.User = Depends(get_current_user), db
         "recent_activity": []
     }
 
-class GamificationUpdate(schemas.BaseModel):
+class GamificationUpdate(BaseModel):
     xp_gained: int
 
 @router.post("/gamification/update")
