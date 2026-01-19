@@ -34,9 +34,11 @@ env/
 **/__pycache__/
 **/*.pyc
 
-# Ignore Databases
+# Ignore Databases (except exports folder)
 Backend/*.db
 Backend/*.sqlite3
+# Allow database exports to be shared
+!Backend/db_exports/*.db
 
 # Ignore Node.js (Frontend)
 management/node_modules/
